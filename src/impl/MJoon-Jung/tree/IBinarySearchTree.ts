@@ -1,4 +1,4 @@
-import { Node } from '@/src/tree/Node';
+import { Node } from '@/src/impl/MJoon-Jung/tree/Node';
 
 export interface IBinarySearchTree {
   insert(node: Node): void; // 노드 삽입
